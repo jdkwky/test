@@ -1,0 +1,11 @@
+/*首页copyright部分*/
+.link{ width:998px; height:150px; margin-top:8px; background:url(../images/bottombg.png) repeat-x; }
+.bottom-more{ width:998px; height:84px;}
+.top-bottom{ width:700px; height:84px; float:left;}
+.top{ width:700px; height:40px; }
+.bottom{ width:700px; height:40px; margin-top:4px; }
+.moreaction { width:298px; height:64px; float:left;}
+.moreaction select{ margin-top:35px; margin-left:40px;}
+
+.copyri{ width:998px; height:46px; }
+.copyri img{ margin:0 auto; display:block; margin-top:20px;}

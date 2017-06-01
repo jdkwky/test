@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+/*首页中间部分*/
+.pic-news{width:998px; height:304px; margin-top:8px; }
+.clearfix{ width:404px; height:304px;display:inline-block; float:left;}
+.clearfix:after{content:"";display:block;height:0px;clear:both;visibility:hidden;}
+#banner{height:400px; width:300px; padding:2px 2px; float:left;}
+.rollnews{width:588px; height:30px; background:url(../images/rollnew.png) no-repeat;float:left; margin-left:4px;}
+.d1 {margin-left:50px; float:left;width:530px;height:25px;overflow:hidden;white-space:nowrap;}
+.d2 { background-color:#FF9933;}
+.div2 {width:auto;height:auto;font-size:14px;float:left; color:#333333;overflow:hidden;}
+.div2 span{ display:block; margin-top:4px; color:red;}
+.examshow{ float:left; width:588px; height:270px; margin-top:2px; margin-left:4px; border:#def1f8 1px solid;}
+.examshow h2{ background:url(../images/examshow.png); width:588px; height:27px; border-bottom:#0068b7 2px solid; }
+.examshow h2 span { display:block; margin-left:540px; padding-top:6px;}
+.examshow h2 span a{ text-decoration:none; font-size:10px; font-weight:bold; color:white;}
+.examshow ul{ margin-left:26px; margin-top:10px; }
+.examshow ul li{ list-style:disc;color:#999999; margin-top:10px;}
+.examshow ul li a{ text-decoration:none; font-size:14px; color:#666666;}
+.examshow ul li a:hover{ text-decoration:underline;}
+
+.phone-guide{ width:998px; height:200px; margin-top:8px;}
+.phone{ width:230px; height:198px; float:left;border:#def1f8 1px solid;}
+.phone h2{width:230px; height:27px;border-bottom:#0068b7 2px solid; background:url(../images/phone.png);}
+.phone ul{ margin-left:16px; margin-top:10px; }
+.phone ul li{ list-style:none; margin-top:10px;color:#666666;}
+.phone ul li span{ margin-left:20px;}
+.guide { width:744px; height:184px; float:left; border:#1d66a2 8px solid; margin-left:6px;}
+.guidepic{ width:45px; height:157px; float:left; background:url(../images/service-guide.png); margin-top:10px;}
+.guide ul{ margin-left:25px; margin-top:20px; float:left;}
+.guide ul li{ list-style:none; float:left;}
+.guide img{border:none;}
+.picshow{width:998px; height:60px; margin-top:5px;}
+.picshow a{ width:496px; float:left ;}
+.picshow img{border:none;}
+.edu-news{ width:998px; height:300px; margin-top:5px; }
+.edu{width:496px; height:300px; float:left;  border:#def1f8 1px solid;}
+.edu-navi{ background:url(../images/edu.png); width:496px; height:27px; }
+.edu-navi ul{ margin-left:30px;}
+.edu-navi ul li{ list-style:none; float:left; padding-left:25px; padding-top:8px;}
+.edu-navi ul li span{ margin-left:60px;}
+.edu-navi ul li a{ text-decoration:none; color:#1d66a2; font-size:14px; font-weight:bold;}
+.edu-navi ul li a:hover{ color:#CC3300;}
+.edu-content{ width:496px; height:273px;}
+.edu-content ul{ margin-left:26px;}
+.edu-content ul li{ list-style:disc;color:#999999; padding-top:10px; }
+.edu-content ul li a{ text-decoration:none; font-size:14px; color:#666666;}
+.edu-content ul li a:hover{ text-decoration:underline;}
+#edudown{ display:none;}
+.edu-download{ width:496px; height:273px;}
+.edu-download ul{ margin-left:26px;}
+.edu-download ul li{ list-style:disc;color:#999999; padding-top:10px; }
+.edu-download ul li a{ text-decoration:none; font-size:14px; color:#666666;}
+.edu-download ul li a:hover{ text-decoration:underline;}
+
+.news{width:496px; height:300px; margin-left:2px; float:left; border:#def1f8 1px solid;}
+.news-navi{ background:url(../images/news.png); width:496px; height:27px; }
+.news-navi ul{ margin-left:20px;}
+.news-navi ul li{ list-style:none; float:left; padding-left:40px; padding-top:8px;}
+.span1{ margin-left:60px;}
+.span2{ margin-left:65px;} 
+.news-navi ul li a { text-decoration:none; color:#1d66a2; font-weight:bold; font-size:14px;}
+.news-navi ul li a:hover{ color:#cc3300;}
+.news-content{width:496px; height:273px;}
+.news-content ul{ margin-left:26px;  }
+.news-content ul li{ list-style:disc;color:#999999; padding-top:10px;}
+.news-content ul li a{ text-decoration:none; font-size:14px; color:#666666;}
+.news-content ul li a:hover{ text-decoration:underline;}
+#province{ display:none;}
+#city{ display:none;}
+
+.three{ width:998px; height:180px; margin-top:8px; }
+
+.check{ width:496px; height:178px; float:left;border:#def1f8 1px solid; }
+.check h2{ background:url(../images/check.png); width:496px; height:27px; border-bottom:#0068b7 2px solid;}
+.check h2 span{ display:block; margin-left:450px; padding-top:8px;}
+.check h2 span a{ text-decoration:none; font-size:10px; font-weight:bold; color:white;}
+.check ul{ margin-left:26px; margin-top:10px; }
+.check ul li{ list-style:disc;color:#999999; margin-top:10px;}
+.check ul li a{ text-decoration:none; font-size:14px; color:#666666;}
+.check ul li a:hover{ text-decoration:underline;}
+.certi{ width:496px; height:178px; float:left;border:#def1f8 1px solid; margin-left:2px;}
+.certi h2{ background:url(../images/certi.png); width:496px; height:27px;border-bottom:#0068b7 2px solid;}
+.certi h2 span{ display:block; margin-left:450px; padding-top:8px;}
+.certi h2 span a{ text-decoration:none;font-size:10px; font-weight:bold; color:white;}
+.certi ul{ margin-left:26px; margin-top:10px; }
+.certi ul li{ list-style:disc;color:#999999; margin-top:10px;}
+.certi ul li a{ text-decoration:none; font-size:14px; color:#666666;}
+.certi ul li a:hover{ text-decoration:underline;} 
+
+
+
+

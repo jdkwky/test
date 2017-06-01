@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>长春市人事教育考试中心</title>
+    <meta name="robots" content="all"/>
+    <meta name="keywords" content="长春市人事教育考试"/>
+    <meta name="description" content="长春市教育考试型网站"/>
+    <meta name="Identifier-URL" content="http://www.ccrjk.com"/>
+    <link href="css/head.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="css/copyright.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="script/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="script/jquery.KinSlideshow-1.2.1.js"></script>
+
+</head>
+
+<body>
+
+<div class="head">
+    <div class="head-pic">
+    </div>
+</div>
+
+<div class="navi">
+    <ul>
+        <li><a href="#" title="网站首页" target="_blank"><span>网站首页</span></a></li>
+        <li><a href="#" title="继续教育" target="_blank"><span>继续教育</span></a></li>
+        <li><a href="#" title="考试计划" target="_blank"><span>考试计划</span></a></li>
+        <li><a href="#" title="考试新闻" target="_blank"><span>考试新闻</span></a></li>
+        <li><a href="#" title="网上报名" target="_blank"><span>网上报名</span></a></li>
+        <li><a href="#" title="成绩查询" target="_blank"><span>成绩查询</span></a></li>
+        <li><a href="#" title="证书发放" target="_blank"><span>证书发放</span></a></li>
+        <li><a href="#" title="网上咨询" target="_blank"><span>网上咨询</span></a></li>
+        <li><a href="#" title="中心简介" target="_blank"><span>中心简介</span></a></li>
+    </ul>
+</div>
+<div class="content">
+    <div class="regist-search">
+        <div class="regist">
+            <img src="images/USERS.png"/>
+            <p>考生咨询、意见、投诉用户登录</p>
+            <form action="#">
+                <span>用户名:</span><input type="text" name="username"/><span>密码:</span><input type="password" name="pwd"/>
+            </form>
+            <ul>
+                <li><a href="#"><span>登录</span></a></li>
+                <li><a href="#"><span>注册</span></a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input class="input-text" type="text" value="全站搜索"/><a href="#" target="_blank"><img
+                src="images/allsearch.png"/></a>
+        </div>
+    </div>
+    <div class="pic-news">
+        <script type="text/javascript">
+            $(function () {
+                $("#banner").KinSlideshow({
+                    moveStyle: "left",
+                    titleBar: {titleBar_height: 18, titleBar_bgColor: "#000", titleBar_alpha: 0.4},
+                    titleFont: {TitleFont_size: 14, TitleFont_color: "#FFFFFF", TitleFont_weight: "normal"},
+                    btn: {
+                        btn_bgColor: "#2d2d2d",
+                        btn_bgHoverColor: "#1072aa",
+                        btn_fontColor: "#FFF",
+                        btn_fontHoverColor: "#FFF",
+                        btn_borderColor: "#4a4a4a",
+                        btn_borderHoverColor: "#1188c0",
+                        btn_borderWidth: 1
+                    }
+                });
+            })
+        </script>
+        <div id="index_main" class="clearfix">
+            <div id="banner">
+                <a href="#"><img src="images/banner01.jpg" alt="专业考试！" width="400" height="300"/></a>
+                <a href="#"><img src="images/banner02.jpg" alt="不再迷茫！" width="400" height="300"/></a>
+                <a href="#"><img src="images/banner03.jpg" alt="We are win！" width="400" height="300"/></a>
+            </div>
+        </div>
+        <script>
+            var s, s2, s3, s4, timer;
+            function init() {
+                s = getid("div1");
+                s2 = getid("div2");
+                s3 = getid("div3");
+                s4 = getid("scroll");
+                s4.style.width = (s2.offsetWidth * 2 + 100) + "px";
+                s3.innerHTML = s2.innerHTML;
+                timer = setInterval(mar, 100);
+            }
+            function mar() {
+                if (s2.offsetWidth <= s.scrollLeft) {
+                    s.scrollLeft -= s2.offsetWidth;
+                } else {
+                    s.scrollLeft++;
+                }
+            }
+            function getid(id) {
+                return document.getElementById(id);
+            }
+            window.onload = init;
+        </script>
+        <div class=" rollnews">
+            <div class="d1" id="div1" onmouseover="clearInterval(timer)" onmouseout="timer=setInterval(mar,100)">
+                <div class="scroll" id="scroll">
+                    <div class="div2" id="div2">
+                        <span>信息快报信息快报信息快报信息快报信息快报信息快信息快报信息快报信息快信息快报信息快报信息快信息快报信息快报信息快</span>
+                    </div>
+                    <div id="div3" class="div2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="examshow"><!--工作动态-->
+            <h2><span><a href="#" target="_blank">更多>></a></span></h2>
+            <ul>
+                <li><a href="#" target="_blank">关于2013年全市机关事业单位工人技术等级岗位考核有关问题的通知</a></li>
+                <li><a href="#" target="_blank">2013年继续教育培训报名截止时间通知</a></li>
+                <li><a href="#" target="_blank">关于2013年全市机关事业单位工人技术等级岗位考核有关问题的通知</a></li>
+                <li><a href="#" target="_blank">2013年继续教育培训报名截止时间通知</a></li>
+                <li><a href="#" target="_blank">关于2013年全市机关事业单位工人技术等级岗位考核有关问题的通知</a></li>
+                <li><a href="#" target="_blank">2013年继续教育培训报名截止时间通知</a></li>
+                <li><a href="#" target="_blank">关于2013年全市机关事业单位工人技术等级岗位考核有关问题的通知</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="phone-guide">
+        <div class="phone">
+            <h2></h2>
+            <ul>
+                <li>继续教育<span>0431-88776880</span></li>
+                <li>报名咨询<span>0431-88776881</span></li>
+                <li>考试咨询<span>0431-88776882</span></li>
+                <li>考试管理<span>0431-88776876</span></li>
+                <li>证件管理<span>0431-88776870</span></li>
+            </ul>
+        </div>
+        <div class="guide">
+            <div class="guidepic"></div>
+            <ul>
+                <li><a href="#" target="_blank"><img src="images/service01.png"/></a></li>
+                <li><a href="#" target="_blank"><img src="images/service02.png"/></a></li>
+                <li><a href="#" target="_blank"><img src="images/service03.png"/></a></li>
+                <li><a href="#" target="_blank"><img src="images/service04.png"/></a></li>
+                <li><a href="#" target="_blank"><img src="images/service05.png"/></a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="picshow">
+        <a href="#" target="_blank"><img src="images/continue.png" style="float:left"/></a>
+        <a href="#" target="_blank"><img src="images/center.png" style="float:left; margin-left:6px;"/></a>
+    </div>
+
+    <script language="javascript">
+        function educhange(name) {
+            if (name == "educon") {
+                document.getElementById("educon").style.display = "block";
+                document.getElementById("edudown").style.display = "none";
+            } else {
+                document.getElementById("educon").style.display = "none";
+                document.getElementById("edudown").style.display = "block";
+            }
+        }
+    </script>
+    <div class="edu-news">
+        <div class="edu">
+            <div class="edu-navi">
+                <ul>
+                    <li><a onmouseover="educhange('educon')" href="#" target="_blank">继续教育报名</a></li>
+                    <li><span><a onmouseover="educhange('edudown')" href="#" target="_blank">教材下载</a></span></li>
+                </ul>
+            </div>
+            <div id="educon" class="edu-content">
+                <ul>
+                    <li><a href="#" target="_blank">2013年继续教育教材打印通知</a></li>
+                    <li><a href="#" target="_blank">2013年继续教培训报名时间截止通知</a></li>
+                    <li><a href="#" target="_blank">关于2013年长春市认识教育中心继续教育征文通知</a></li>
+                    <li><a href="#" target="_blank">关于开展2013年继续教育培训的通知</a></li>
+                    <li><a href="#" target="_blank">2013年继续教育教材打印通知</a></li>
+                    <li><a href="#" target="_blank">2013年继续教培训报名时间截止通知</a></li>
+                    <li><a href="#" target="_blank">关于2013年长春市认识教育中心继续教育征文通知</a></li>
+                    <li><a href="#" target="_blank">关于开展2013年继续教育培训的通知</a></li>
+                </ul>
+            </div>
+            <div id="edudown" class="edu-download">
+
+                <ul>
+                    <li><a href="#" target="_blank">2013年继续教育教材打印通知</a></li>
+                    <li><a href="#" target="_blank">2013年继续教培训报名时间截止通知</a></li>
+                    <li><a href="#" target="_blank">关于2013年长春市认识教育中心继续教育征文通知</a></li>
+                    <li><a href="#" target="_blank">关于开展2013年继续教育培训的通知</a></li>
+                    <li><a href="#" target="_blank">2013年继续教育教材打印通知</a></li>
+                </ul>
+            </div>
+        </div>
+        <script language="javascript">
+            function newchange(value) {
+                if (value == "country") {
+                    document.getElementById("country").style.display = "block";
+                    document.getElementById("province").style.display = "none";
+                    document.getElementById("city").style.display = "none";
+                } else if (value == "province") {
+                    document.getElementById("country").style.display = "none";
+                    document.getElementById("province").style.display = "block";
+                    document.getElementById("city").style.display = "none";
+                } else {
+                    document.getElementById("country").style.display = "none";
+                    document.getElementById("province").style.display = "none";
+                    document.getElementById("city").style.display = "block";
+                }
+            }
+        </script>
+        <div class="news">
+            <div class="news-navi">
+                <ul>
+                    <li><a onmouseover="newchange('country')" href="#" target="_blank">国家考试</a></li>
+                    <li><span class="span1"><a onmouseover="newchange('province')" href="#"
+                                               target="_blank">省级考试</a></span></li>
+                    <li><span class="span2"><a onmouseover="newchange('city')" href="#" target="_blank">市级考试</a></span>
+                    </li>
+                </ul>
+            </div>
+            <div id="country" class="news-content">
+                <ul>
+                    <li><a href="#" target="_blank">关于做好2014年度全国注册税务师、计量师、社会工作者、土地的通知</a></li>
+                    <li><a href="#" target="_blank">关于2014年全国技术人员计算机应用能力考试计划的通知</a></li>
+                    <li><a href="#" target="_blank">关于2014年度全国注册咨询工程师（投资）、投资建设项目的通知</a></li>
+                    <li><a href="#" target="_blank">重要通知</a></li>
+                    <li><a href="#" target="_blank">关于做好2014年度全国注册税务师、计量师、社会工作者、土地的通知</a></li>
+                    <li><a href="#" target="_blank">关于2014年全国技术人员计算机应用能力考试计划的通知</a></li>
+                    <li><a href="#" target="_blank">关于2014年度全国注册咨询工程师（投资）、投资建设项目的通知</a></li>
+                    <li><a href="#" target="_blank">重要通知</a></li>
+                </ul>
+            </div>
+            <div id="province" class="news-content">
+                <ul>
+                    <li><a href="#" target="_blank">关于做好2014年度全国注册税务师、计量师、社会工作者、土地的通知</a></li>
+                    <li><a href="#" target="_blank">关于2014年全国技术人员计算机应用能力考试计划的通知</a></li>
+                    <li><a href="#" target="_blank">关于2014年度全国注册咨询工程师（投资）、投资建设项目的通知</a></li>
+                    <li><a href="#" target="_blank">重要通知</a></li>
+                    <li><a href="#" target="_blank">关于做好2014年度全国注册税务师、计量师、社会工作者、土地的通知</a></li>
+                </ul>
+            </div>
+            <div id="city" class="news-content">
+                <ul>
+                    <li><a href="#" target="_blank">关于做好2014年度全国注册税务师、计量师、社会工作者、土地的通知</a></li>
+                    <li><a href="#" target="_blank">关于2014年全国技术人员计算机应用能力考试计划的通知</a></li>
+                    <li><a href="#" target="_blank">关于2014年度全国注册咨询工程师（投资）、投资建设项目的通知</a></li>
+                    <li><a href="#" target="_blank">重要通知</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="three">
+
+        <div class="check">
+            <h2><span><a href="#" target="_blank">更多>></a></span></h2>
+            <ul>
+                <li><a href="#">关于2013年全市机关事业单位技术等级岗位考核有关问题的通知</a></li>
+            </ul>
+        </div>
+        <div class="certi">
+            <h2><span><a href="#" target="_blank">更多>></a></span></h2>
+            <ul>
+                <li><a href="#" target="_blank">各类资格证书(表)的补办方法</a></li>
+                <li><a href="#" target="_blank">合格证书领取办法</a></li>
+                <li><a href="#" target="_blank">2014年度各类资格证书领取通知(汇总)</a></li>
+                <li><a href="#" target="_blank">各类资格证书(表)的补办方法</a></li>
+                <li><a href="#" target="_blank">合格证书领取办法</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="link">
+        <div class="bottom-more">
+            <div class="top-bottom">
+                <div class="top">
+                    <a href="http://www.mohrss.gov.cn/" title="中国人力资源和社会保障"><img src="images/01.jpg" alt="中国人力资源"
+                                                                                 width="160" height="40"/></a>
+                    <a href="http://hrss.jl.gov.cn/" title="吉林省人力资源和社会保障厅"><img src="images/02.jpg" width="160"
+                                                                                alt="中国人力资源" height="40"/></a>
+                    <a href="http://rsj.changchun.gov.cn/" title="长春市人力资源和社会保障厅"><img src="images/03.jpg" width="160"
+                                                                                      alt="中国人力资源" height="40"/>
+                        <a href="http://www.21wecan.com/" title="中国卫生人才网"><img src="images/04.jpg" width="160"
+                                                                               alt="中国人力资源" height="40"/></a>
+
+                </div>
+                <div class="bottom">
+                    <a href="http://www.jlzkb.com/" title="吉林省人事考试网"><img src="images/05.jpg" width="160" alt="中国人力资源"
+                                                                          height="40"/></a>
+                    <a href="http://www.jlgwy.net/" title="吉林省公务员网"><img src="images/06.jpg" width="160" alt="中国人力资源"
+                                                                         height="40"/></a>
+                    <a href="http://jnrczx.860431.com.cn/" title="吉林省人才开发简介中心"><img src="images/07.png" width="160"
+                                                                                    height="40" alt="中国人力资源"/></a>
+                    <a href="http://www.ccrc.com.cn/" title="长春人才网"><img src="images/08.png" width="160" alt="中国人力资源"
+                                                                         height="40"/></a>
+
+                </div>
+            </div>
+            <div class="moreaction">
+                <select>
+                    <option>友情链接</option>
+                    <option>中国人力资源和社会保障</option>
+                    <option>吉林省人力资源和社会保障厅</option>
+                    <option>长春市人力资源和社会保障厅</option>
+                    <option>中国卫生人才网保障</option>
+                    <option>吉林省人事考试网</option>
+                    <option>吉林省公务员网</option>
+                    <option>吉林省人才开发简介中心</option>
+                    <option>长春人才网</option>
+                </select>
+            </div>
+        </div>
+        <div class="copyri">
+            <img src="images/copy.png"/>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

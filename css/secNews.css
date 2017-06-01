@@ -1,0 +1,22 @@
+/*二级页面主要css部分*/
+.center{ width:998px;height:800px; margin:0 auto; }
+.info-navi{ width:230px; height:800px; float:left;}
+.notice{ width:230px; height:300px; margin-top:10px;}
+.noticon{ width:230px; height:273px; border:#ebeff3 1px solid;}
+.date1{ margin-left:80px;}
+.noticon ul{ display:block; margin-left:4px; margin-top:4px;}
+.noticon ul li{ list-style:none; margin-top:10px; }
+.noticon ul li a{ text-decoration:none; color:#666666; font-size:14px;}
+.noticon ul li a:hover{color:red;}
+.news-phone{ width:230px; height:198px; border:#ebeff3 1px solid; margin-top:4px;}
+.news-phone ul{ margin-left:25px; margin-top:10px; }
+.news-phone ul li{ list-style:none; margin-top:10px;color:#666666;}
+/*新闻主要内容*/
+.cen-content{ width:760px; height:800px; margin-left:8px; float:left;}
+.news-title{ width:760px; height:30px;}
+.news-title p{ display:block; width:150px; margin-left:10px; padding-top:8px; font-size:12px; color:#fb430b; height:24px; font-weight:bold;}
+.main-news{ width:750px; height:760px; border:4px solid #ebeff3;}
+.main-news ul{ margin-top:10px; margin-left:30px; display:block;}
+.main-news ul li{ margin-top:8px;}
+.main-news ul li a{ color:#666666; font-size:14px; text-decoration:none; }
+.main-news ul li a:hover{ text-decoration:underline;}
